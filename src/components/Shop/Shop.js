@@ -14,9 +14,9 @@ const Shop = () => {
   },[])
   const [cart, setCart] = useState([])
 
-  const handleAddToCart = () =>{
-    console.log(Product)
-    const newCart = [...cart ,Product]
+  const handleAddToCart = (product) =>{
+    console.log(product)
+    const newCart = [...cart ,product]
     setCart(newCart)
   }
   return (

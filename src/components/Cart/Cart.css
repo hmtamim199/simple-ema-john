@@ -1,3 +1,5 @@
 .cart{
-  border-radius: 10px;
+  position: sticky;
+  top: 0;
+  padding: 28px 30px;
 }
