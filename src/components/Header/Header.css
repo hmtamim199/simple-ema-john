@@ -1,4 +1,4 @@
-.header{
+.header {
   height: 80px;
   background: #1C2B35;
   display: flex;
@@ -6,16 +6,22 @@
   justify-content: space-between;
   padding-right: 140px;
   padding-left: 30px
-  
 }
-.header a{
+
+.header a {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 17px;
- padding-left: 36px;
+  padding-left: 36px;
 
 }
-.header a:hover{
+
+.header a:hover {
   color: orange;
   font-size: 25px;
+}
+
+.btn-logout {
+  margin-left: 10px;
+  border-radius: 6px;
 }
